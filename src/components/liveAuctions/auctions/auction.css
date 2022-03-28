@@ -1,0 +1,27 @@
+img{
+    cursor: pointer;
+}
+.auctionLink{
+    color:whitesmoke;
+    font-weight:bold;
+    cursor:pointer;
+    text-decoration: none;
+}
+.auctionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid red;
+    padding: 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.auctionLink:hover{
+    color:blue;
+    text-decoration: none;
+}
+.auctionContainer:hover{
+    cursor: e-resize;
+}

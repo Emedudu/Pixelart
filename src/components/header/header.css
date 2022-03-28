@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,9 @@
+.catContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px 10px;
+    border: 1px solid red;
+    width: 90%;
+    max-width: 500px;
+    overflow: hidden;
+}

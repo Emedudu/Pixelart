@@ -1,0 +1,18 @@
+.wallet-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    border: 1px solid white;
+}
+.segment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.centerTopic{
+    font-size: 25px;
+    width: 1000px;
+}
