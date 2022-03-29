@@ -2,6 +2,8 @@
   text-align: center;
   color: white;
   background-size:cover;
+  background-position: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .App-logo {
@@ -37,4 +39,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.remove-margin{
+  margin: 0px;
 }

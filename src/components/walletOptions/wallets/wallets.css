@@ -12,12 +12,16 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height:150px;
-    width:150px;
+    padding: 20px;
     border-radius: 10px;
-    background-color: rgba(80,80,80,0.3);
+    border: 1px solid rgba(255,255,255,.2);
+    background-color: transparent;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.walletWrapper{
+    padding:0px 8px;
+    margin-top: 16px;
 }
 .walletLink:hover{
     color:blue;

@@ -8,14 +8,17 @@ import bgImage from './images/bgImage.jpg'
 
 const App=()=> {
   return (
-    <div className="App" style={{backgroundImage:`url(${bgImage})`}}>
+    <div className="App row" style={{backgroundImage:`url(${bgImage})`}}>
       <div>
         <Header />
       </div>
-      <Routes>
-        <Route exact path="/explore" element={<ExploreScreen/>} />
-        <Route exact path="/" element={<HomeScreen/>} />
-      </Routes>
+      <div className='remove-margin'>
+        <Routes>
+          <Route exact path="/explore" element={<ExploreScreen/>} />
+          <Route exact path="/" element={<HomeScreen/>} />
+        </Routes>
+      </div>
+
       <Footer />
     </div>
   );

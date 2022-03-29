@@ -1,9 +1,14 @@
-.catContainer{
+.imageContainer{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
     padding: 20px 10px;
-    border: 1px solid red;
-    width: 90%;
-    max-width: 500px;
     overflow: hidden;
+    
+}
+.catContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    margin: 10px 5px;
 }

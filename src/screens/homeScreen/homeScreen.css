@@ -1,6 +1,7 @@
 .details{
     background-color: black;
 }
-.introDetails{
-    padding: 15px 15px;
-}
+
+.center{
+    margin: auto;
+  }

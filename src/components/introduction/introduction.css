@@ -1,6 +1,4 @@
-.description{
-    margin: auto;
-}
+
 .topic{
     font-size: 60px;
 }
@@ -52,5 +50,4 @@
 .card{
     border:1px solid red;
     height:500px;
-    margin: auto;
 }
