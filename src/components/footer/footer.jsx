@@ -2,9 +2,19 @@ import React from "react";
 
 const Footer=()=> {
   return (
-    <div>
-      foot
-    </div>
+    <footer>
+      <div>
+        <div>
+          Get The Latest Rarible Updates
+          <input/>
+          Join The Community
+          <div>
+
+          </div>
+        </div>
+      </div>
+      <hr/>
+    </footer>
   );
 }
 
